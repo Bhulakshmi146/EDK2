@@ -6,6 +6,5 @@ echo "Build complete!"
 echo "executed edksetup file"
 
 cd $WORKSPACE
-build
-echo "build completed"
+build >> Build.txt
 
